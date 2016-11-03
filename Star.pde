@@ -8,9 +8,9 @@ class Star
     myEndY = (int)(Math.random()*5);
   }
   public void show(){
-  	stroke(127, 150);
+  	stroke(255);
   	strokeWeight(2);
-    line(myX, myY, myX+myEndX, myY+myEndY);
+    point(myX, myY);
     strokeWeight(1);
   }
 }

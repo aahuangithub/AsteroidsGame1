@@ -11,12 +11,12 @@ class SpaceShip extends Floater
     myDirectionX = 0;
     myDirectionY = 0;
     myPointDirection = 90;
-    setColor(#663333);
+    setColor(#FFFFFF);
   }
   public void move(){
     super.move();
-    myDirectionX = myDirectionX*0.98;
-    myDirectionY = myDirectionY*0.98;
+    //myDirectionX = myDirectionX*0.98;
+    //myDirectionY = myDirectionY*0.98;
   }
 
   public void hyperspace(){
